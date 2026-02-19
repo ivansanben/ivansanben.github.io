@@ -2,81 +2,76 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Iván Sánchez | Desarrollador DAM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iván Sánchez – Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAV -->
-    <nav>
-        <h1 class="logo">Iván Sánchez</h1>
-        <ul>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+<nav>
+    <h1 class="logo">Iván Sánchez</h1>
+    <ul>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#stack">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
 
-    <!-- HERO -->
-    <header class="hero">
+<header class="hero">
+    <div class="hero-overlay">
         <h2 class="fade-in">Desarrollador de Aplicaciones Multiplataforma</h2>
-        <p class="fade-in-delay">Construyendo soluciones simples, eficientes y profesionales.</p>
-    </header>
-
-    <!-- SOBRE MI -->
-    <section id="sobre-mi" class="section">
-        <h2 class="section-title">Sobre mí</h2>
-        <p class="section-text fade-slide">
-            Soy <strong>Iván Sánchez</strong>, estudiante de Desarrollo de Aplicaciones Multiplataforma.
-            Me apasiona crear software funcional, interfaces limpias y proyectos donde pueda 
-            aplicar mis conocimientos en Java, MySQL, interfaces gráficas, APIs y desarrollo multiplataforma.
+        <p class="fade-in-delay">
+            Desarrollo soluciones eficientes en Java, bases de datos y aplicaciones multiplataforma.
         </p>
-    </section>
+        <a href="#proyectos" class="btn-primary fade-in-delay">Ver proyectos</a>
+    </div>
+</header>
 
-    <!-- PROYECTOS -->
-    <section id="proyectos" class="section">
-        <h2 class="section-title">Proyectos</h2>
+<section id="sobre" class="section">
+    <h2>Sobre mí</h2>
+    <p>
+        Soy estudiante de Desarrollo de Aplicaciones Multiplataforma con especial interés
+        en backend, bases de datos y arquitectura de software.
+        Me enfoco en escribir código limpio, estructurado y mantenible.
+    </p>
+</section>
 
-        <div class="projects-container">
+<section id="stack" class="section bg-light">
+    <h2>Stack Tecnológico</h2>
+    <div class="stack-grid">
+        <div class="stack-item">Java</div>
+        <div class="stack-item">MySQL</div>
+        <div class="stack-item">Hibernate</div>
+        <div class="stack-item">React Native</div>
+        <div class="stack-item">HTML / CSS</div>
+        <div class="stack-item">Git & GitHub</div>
+    </div>
+</section>
 
-            <!-- Proyecto 1 -->
-            <div class="project-card fade-slide">
-                <h3>Proyecto 1</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn" target="_blank">Ver en GitHub</a>
-            </div>
+<section id="proyectos" class="section">
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
 
-            <!-- Proyecto 2 -->
-            <div class="project-card fade-slide">
-                <h3>Proyecto 2</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn" target="_blank">Ver en GitHub</a>
-            </div>
-
-            <!-- Proyecto 3 -->
-            <div class="project-card fade-slide">
-                <h3>Proyecto 3</h3>
-                <p>Descripción breve del proyecto.</p>
-                <a href="#" class="btn" target="_blank">Ver en GitHub</a>
-            </div>
-
+        <div class="project-card fade-slide">
+            <h3>Proyecto Ejemplo</h3>
+            <p>Aplicación desarrollada en Java con conexión a base de datos MySQL.</p>
+            <a href="#" target="_blank" class="btn-outline">Ver en GitHub</a>
         </div>
-    </section>
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="section">
-        <h2 class="section-title">Contacto</h2>
-        <p class="section-text fade-slide">Puedes contactar conmigo a través de:</p>
-        <p class="section-text fade-slide"><strong>Email:</strong> ivannssanben@gmail.com</p>
-        <p class="section-text fade-slide"><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">Ivansanben</a></p>
-    </section>
+    </div>
+</section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Iván Sánchez – Todos los derechos reservados</p>
-    </footer>
+<section id="contacto" class="section bg-light">
+    <h2>Contacto</h2>
+    <p>Email: tuemail@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/ivansanben" target="_blank">github.com/ivansanben</a></p>
+</section>
 
-    <script src="script.js"></script>
+<footer>
+    <p>© 2025 Iván Sánchez | Portfolio Profesional</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

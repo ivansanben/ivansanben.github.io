@@ -1,4 +1,3 @@
-//  animaciones al hacer scroll
 const elements = document.querySelectorAll('.fade-slide');
 
 function checkVisibility() {
@@ -6,7 +5,6 @@ function checkVisibility() {
 
     elements.forEach(el => {
         const top = el.getBoundingClientRect().top;
-
         if (top < trigger) {
             el.classList.add('visible');
         }
