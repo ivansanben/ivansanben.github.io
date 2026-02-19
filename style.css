@@ -33,6 +33,13 @@ body {
     padding: 40px 80px; /* controla separación lateral */
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+
 
 .logo {
     font-weight: 700;
