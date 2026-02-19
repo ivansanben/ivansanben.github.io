@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px; /* controla separación lateral */
+    padding: 40px 80px; /* controla separación lateral */
 }
 
 
