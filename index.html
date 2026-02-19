@@ -4,72 +4,85 @@
     <meta charset="UTF-8">
     <title>Iván Sánchez | Desarrollador DAM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-    <h1 class="logo">Iván Sánchez</h1>
-    <ul>
-        <li><a href="#sobre">Sobre mí</a></li>
-        <li><a href="#stack">Tecnologías</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">Iván Sánchez</div>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#stack">Tecnologías</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
 </nav>
 
 <header class="hero">
-    <div class="hero-overlay">
-        <h2 class="fade-in">Desarrollador de Aplicaciones Multiplataforma</h2>
-        <p class="fade-in-delay">
-            Desarrollo soluciones eficientes en Java, bases de datos y aplicaciones multiplataforma.
-        </p>
-        <a href="#proyectos" class="btn-primary fade-in-delay">Ver proyectos</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Desarrollador de Aplicaciones Multiplataforma</h1>
+        <p>Construyendo software estructurado, eficiente y escalable.</p>
+        <a href="#proyectos" class="btn-primary">Explorar proyectos</a>
     </div>
 </header>
 
 <section id="sobre" class="section">
-    <h2>Sobre mí</h2>
-    <p>
-        Soy estudiante de Desarrollo de Aplicaciones Multiplataforma con especial interés
-        en backend, bases de datos y arquitectura de software.
-        Me enfoco en escribir código limpio, estructurado y mantenible.
-    </p>
+    <div class="container">
+        <h2>Sobre mí</h2>
+        <p>
+            Estudiante de Desarrollo de Aplicaciones Multiplataforma con orientación a backend,
+            bases de datos y arquitectura limpia. Me enfoco en escribir código mantenible,
+            estructurado y profesional.
+        </p>
+    </div>
 </section>
 
-<section id="stack" class="section bg-light">
-    <h2>Stack Tecnológico</h2>
-    <div class="stack-grid">
-        <div class="stack-item">Java</div>
-        <div class="stack-item">MySQL</div>
-        <div class="stack-item">Hibernate</div>
-        <div class="stack-item">React Native</div>
-        <div class="stack-item">HTML / CSS</div>
-        <div class="stack-item">Git & GitHub</div>
+<section id="stack" class="section light">
+    <div class="container">
+        <h2>Tecnologías</h2>
+        <div class="stack-grid">
+            <div>Java</div>
+            <div>MySQL</div>
+            <div>Hibernate</div>
+            <div>React Native</div>
+            <div>HTML / CSS</div>
+            <div>Git & GitHub</div>
+        </div>
     </div>
 </section>
 
 <section id="proyectos" class="section">
-    <h2>Proyectos</h2>
-    <div class="projects-grid">
+    <div class="container">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
 
-        <div class="project-card fade-slide">
-            <h3>Proyecto Ejemplo</h3>
-            <p>Aplicación desarrollada en Java con conexión a base de datos MySQL.</p>
-            <a href="#" target="_blank" class="btn-outline">Ver en GitHub</a>
+            <div class="project-card">
+                <h3>Proyecto Ejemplo</h3>
+                <p>Aplicación Java con conexión a MySQL y arquitectura en capas.</p>
+                <a href="#" target="_blank">Ver en GitHub</a>
+            </div>
+
         </div>
-
     </div>
 </section>
 
-<section id="contacto" class="section bg-light">
-    <h2>Contacto</h2>
-    <p>Email: tuemail@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/ivansanben" target="_blank">github.com/ivansanben</a></p>
+<section id="contacto" class="section light">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Email: ivannssanben@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/ivansanben" target="_blank">github.com/ivansanben</a></p>
+    </div>
 </section>
 
 <footer>
-    <p>© 2025 Iván Sánchez | Portfolio Profesional</p>
+    © 2025 Iván Sánchez | Portfolio Profesional
 </footer>
 
 <script src="script.js"></script>
